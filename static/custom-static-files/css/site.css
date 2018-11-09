@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Ubuntu';
+}
+
+.login-page-header {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+
+#super-container {
+  overflow: auto;
+}
+
+#login-form-container {
+  width: 40%;
+  margin: 50px auto 0px auto;
+}
+
+#login-form-caption {
+  margin-bottom: 30px;
+}
+
+#login-form-caption h5 {
+  font-weight: bold;
+}
+
+#footer-content {
+  padding: 20px;
+}
